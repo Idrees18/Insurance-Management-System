@@ -14,11 +14,11 @@ The Insurance Management System is a web application built using Spring Boot, Sp
 The project is structured as follows:
 
 * 'src/main/java': Contains the source code.
-** 'com.insurance': Contains the main application class and configuration files.
-** 'com.insurance.insurance_management.controller': Contains the RESTful API controllers.
-** 'com.insurance.insurance_management.entities': Contains the domain model classes.
-** 'com.insurance.insurance_management.repositories': Contains the Spring Data JPA repositories.
-** 'com.insurance.insurance_management.services: Contains the service classes that implement business logic.
+  * 'com.insurance': Contains the main application class and configuration files.
+  * 'com.insurance.insurance_management.controller': Contains the RESTful API controllers.
+  * 'com.insurance.insurance_management.entities': Contains the domain model classes.
+  * 'com.insurance.insurance_management.repositories': Contains the Spring Data JPA repositories.
+  * 'com.insurance.insurance_management.services: Contains the service classes that implement business logic.
 * 'src/main/resources': Contains the application properties files.
 * 'src/test': Contains the test classes.
 
