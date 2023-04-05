@@ -22,3 +22,45 @@ The project is structured as follows:
 * 'src/main/resources': Contains the application properties files.
 * 'src/test': Contains the test classes.
 
+## How to Run Locally
+
+1. Clone the repository: git clone https://github.com/your-username/insurance-management-system.git
+2. Navigate to the project directory: cd insurance-management-system
+3. Build the project: mvn clean install
+4. Run the project: mvn spring-boot:run
+5. The application will start on port 8080. You can access the RESTful APIs using a tool like Postman.
+
+## API Requests
+The following API requests are available:
+
+### Clients
+* GET /api/clients: Fetch all clients.
+* GET /api/clients/{id}: Fetch a specific client by ID.
+* POST /api/clients: Create a new client.
+* PUT /api/clients/{id}: Update a client's information.
+* DELETE /api/clients/{id}: Delete a client.
+
+## Insurance Policies
+* GET /api/policies: Fetch all insurance policies.
+* GET /api/policies/{id}: Fetch a specific insurance policy by ID.
+* POST /api/policies: Create a new insurance policy.
+* PUT /api/policies/{id}: Update an insurance policy.
+* DELETE /api/policies/{id}: Delete an insurance policy.
+
+## Claims
+* GET /api/claims: Fetch all claims.
+* GET /api/claims/{id}: Fetch a specific claim by ID.
+* POST /api/claims: Create a new claim.
+* PUT /api/claims/{id}: Update a claim's information.
+* DELETE /api/claims/{id}: Delete a claim.
+
+## Postman 
+
+In this project, we have tested the RESTful APIs using the Postman application. We have created different requests for each API endpoint and tested various scenarios to ensure the proper functioning of the APIs.
+
+For example, we have tested GET requests to fetch all clients, policies, and claims, as well as GET requests to fetch a specific client, policy, or claim by ID. We have also tested POST requests to create new clients, policies, and claims, PUT requests to update their information, and DELETE requests to remove them from the database.
+
+During testing, we have ensured that the APIs are handling exceptions and validations properly. We have tested edge cases, such as creating a client with missing information, updating a non-existent policy, or deleting a claim associated with a policy.
+
+Overall, we have used the Postman application to thoroughly test the APIs and ensure their proper functionality.
+
